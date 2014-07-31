@@ -9,8 +9,11 @@ function openWin() {
 
 <%
 	out.print("<p>Remote Addr: " + request.getRemoteAddr() + "</p>");
+	
 	out.print("<p>Remote Host: " + request.getRemoteHost() + "</p>");
+	
 	out.print("<p>X-Forwarded-For: " + request.getHeader("x-forwarded-for") + "</p>");
+	k
 %>
 
 </body></html>
